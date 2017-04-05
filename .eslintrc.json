@@ -1,0 +1,16 @@
+{
+  "extends": "eslint-config-egg",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "linebreak-style": [ 0, "windows" ]
+  },
+  "globals": {
+    "app": true,
+    "request": true,
+    "mm": true,
+    "mock": true,
+    "assert": true
+  }
+}
